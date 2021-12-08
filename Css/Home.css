@@ -1,0 +1,113 @@
+ul {
+  display:flex;
+  list-style-type: none;
+  }
+
+  li a{
+    border:solid 1px rgb(65, 68, 68);
+    color:white;
+    padding: 20px;
+    border-radius:30% 30% 30% 30%;
+    }
+
+.indent{
+  padding-left: 1.7em;
+}
+/*a{
+  text-decoration: none;
+ }
+ .A{
+   margin-left: auto;
+   margin-right: auto;
+   overflow: hidden;
+ }*/
+
+ .carousel-item{
+  height: 300px;
+}
+
+.container-fluid{
+  color:rgb(49, 23, 23);
+}
+
+.divImage{
+  text-align: center;
+  margin:40px;
+}
+.driedFruit{
+  width: 290px;
+  height: 290px;
+  padding: 10px;
+  border:solid 1px rgb(179, 173, 173);
+}
+
+.F{
+  top: 0;
+  position: fixed;
+  z-index: 10;
+  width:100%;
+
+}
+
+.main {
+  background-color: rgb(148, 131, 131);
+  margin-top:10%;
+}
+
+/*shopping cart*/
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-img-right {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+
+.not-visible {
+  display: none;
+}
+
+#product
+{
+	width: 200px;
+  height: 100px;
+  background-color: yellow;
+	display: none;
+}
+
+.load {
+  padding: .7rem 2rem;
+  background: royalblue;
+  border: none;
+  color: I#FFF;
+  margin: 20px auto;
+  display: block;
+  font-size: 1.3rem;
+  cursor: pointer;
+  outline: none;
+}
+
+/*.permanent{
+
+  position: fixed;
+    
+}
+.relative{
+  position: fixed;
+
+}*/
+
+/*.A img{
+  width:500px;
+  height: 300px;
+  transition: 1s;
+   }  
+ 
+.A:hover img{
+  transform: scale(5);
+   transition: 1.5s;
+}*/

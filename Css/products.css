@@ -1,0 +1,48 @@
+ul {
+    display:flex;
+    list-style-type: none;
+}
+  
+li a{
+    border:solid 1px rgb(65, 68, 68);
+    color:white;
+    padding: 20px;
+    border-radius:30% 30% 30% 30%;
+}
+.divImage{
+    text-align: center;
+    margin:70px;
+}
+.driedFruit{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border:solid 1px rgb(179, 173, 173);
+  }
+  .indent{
+    padding-right: 9000000000em;
+  }
+  footer{ 
+    position:absolute; 
+    bottom:0; 
+    width:100%; 
+    height:100px; 
+  }
+  .fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+    width: 100%;
+    margin-bottom: auto;
+}
+
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+    margin-bottom: auto;
+}
+.fb-comments, .fb-comments span, .fb-comments iframe {
+    width: 100% !important;
+    margin-bottom: auto;
+}
+.fb-comments {
+    margin-top: 10px;
+    margin-bottom: auto;
+}
