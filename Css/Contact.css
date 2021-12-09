@@ -86,7 +86,7 @@ img{
 /*End Card*/
 
   body{
-    background: url(image/hinhnenweb.jpg) no-repeat center;
+    background: url(./image/hinhnenweb.jpg) no-repeat center;
     background-size: cover;
     height: auto;
     font-family: 'Roboto', sans-serif;
