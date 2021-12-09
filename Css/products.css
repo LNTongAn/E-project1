@@ -10,7 +10,7 @@ li a{
     border-radius:30% 30% 30% 30%;
 }
 body{
-    background-image: url("/img/background2.png");
+    background-image: url("../img/background2.png");
 }
 .divImage{
     text-align: center;
