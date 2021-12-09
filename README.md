@@ -1,1 +1,1 @@
-View : https://github.com/LNTongAn/E-project1.git
+View : https://lntongan.github.io/E-project1/
