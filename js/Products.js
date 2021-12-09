@@ -47,7 +47,7 @@ function displayImage(items){
         s +=`<div class="col-sm-4 col-md-4 col-lg-2 divImage">
         <div class="detailImage" data-id="${v.id}">
         <a href="product_${v.id}.html"><img src="img/${v.pic}" alt="" class="driedFruit"></a>
-            <h3>${v.name}</h3>
+            <hr><h3>${v.name}</h3>
             <h4>Price:${v.price}$</h4>
 
         </div>
