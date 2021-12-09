@@ -134,7 +134,7 @@ img{
   .myself
 {
   border: 10px solid rgb(192, 207, 189);
-  background:url(/image/hinhlogo2.jpg)no-repeat center;  
+  background:url(../image/hinhlogo2.jpg)no-repeat center; 
   background-size: cover;
   height: auto  ;
 }
