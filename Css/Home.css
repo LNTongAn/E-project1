@@ -1,3 +1,7 @@
+body{
+	 background-image: url("../img/background.png");
+}
+
 ul {
   display:flex;
   list-style-type: none;
