@@ -1,43 +1,43 @@
 var data = [
-    {"id":"p01","name":"Dried Cherries(100g)", "pic":"cherries.jpg","price":1.72,"description":"", "dry":"foreign"},
+    {"id":"p01","name":"Dried Cherries(100g)","name1":"2$","name2":"sale 14%", "pic":"cherries.jpg","price":1.72,"description":"", "dry":"foreign"},
     
-    {"id":"p02","name":"Dried Peaches(100g)", "pic":"dao.jpg","price":2.69, "description":"","dry":"domestic"},
+    {"id":"p02","name":"Dried Peaches(100g)","name1":"","name2":"", "pic":"dao.jpg","price":2.69, "description":"","dry":"domestic"},
 
-    {"id":"p03","name":"Dried Longan(100g)", "pic":"nhan.jpg","price":3.08,"description":"", "dry":"domestic"},
+    {"id":"p03","name":"Dried Longan(100g)","name1":"","name2":"", "pic":"nhan.jpg","price":3.08,"description":"", "dry":"domestic"},
 
-    {"id":"p04","name":"Dried Apple(100g)", "pic":"tao.jpg","price":2.20,"description":"", "dry":"domestic"},
+    {"id":"p04","name":"Dried Apple(100g)","name1":"","name2":"", "pic":"tao.jpg","price":2.20,"description":"", "dry":"domestic"},
 
-    {"id":"p05","name":"Dried Grapes(100g)", "pic":"nho.jpg","price":1.76,"description":"", "dry":"domestic"},
+    {"id":"p05","name":"Dried Grapes(100g)","name1":"","name2":"", "pic":"nho.jpg","price":1.76,"description":"", "dry":"domestic"},
 
-    {"id":"p06","name":"Dried Aroma(100g)", "pic":"thom.jpg","price":3.88,"description":"", "dry":"domestic"},
+    {"id":"p06","name":"Dried Aroma(100g)","name1":"4.5$","name2":"sale 20%", "pic":"thom.jpg","price":3.6,"description":"", "dry":"domestic"},
 
-    {"id":"p07","name":"Dried Plums(100g)", "pic":"man.jpg","price":2.73,"description":"", "dry":"domestic"},
+    {"id":"p07","name":"Dried Plums(100g)","name1":"","name2":"", "pic":"man.jpg","price":2.73,"description":"", "dry":"domestic"},
 
-    {"id":"p08","name":"Dried Kiwi(100g)", "pic":"kiwisaydeo.png","price":2.2,"description":"", "dry":"domestic"},
+    {"id":"p08","name":"Dried Kiwi(100g)","name1":"","name2":"", "pic":"kiwisaydeo.png","price":2.2,"description":"", "dry":"domestic"},
 
-    {"id":"p09","name":"Dried Mulberry(100g)", "pic":"dautam.jpg","price":1.72,"description":"", "dry":"domestic"},
+    {"id":"p09","name":"Dried Mulberry(100g)","name1":"","name2":"", "pic":"dautam.jpg","price":1.72,"description":"", "dry":"domestic"},
 
-    {"id":"p10","name":"Dried Banana(100g)", "pic":"chuoisay.jpg","price":0.97,"description":"", "dry":"domestic"},
+    {"id":"p10","name":"Dried Banana(100g)","name1":"","name2":"", "pic":"chuoisay.jpg","price":0.97,"description":"", "dry":"domestic"},
     
-    {"id":"p11","name":"Dried Jackfruit(100g)", "pic":"mit.jpg","price":2.86,"description":"", "dry":"domestic"},
+    {"id":"p11","name":"Dried Jackfruit(100g)","name1":"3$","name2":"sale 5%", "pic":"mit.jpg","price":2.85,"description":"", "dry":"domestic"},
 
-    {"id":"p12","name":"Dried Blueberries(100g)", "pic":"DriedBlueberries.png","price":3.5,"description":"", "dry":"foreign"},
+    {"id":"p12","name":"Dried Blueberries(100g)","name1":"","name2":"", "pic":"DriedBlueberries.png","price":3.5,"description":"", "dry":"foreign"},
 
-    {"id":"p13","name":"Dried Almonds(200g)", "pic":"Almonds.jpg","price":4,"description":"", "dry":"foreign"},
+    {"id":"p13","name":"Dried Almonds(200g)","name1":"","name2":"", "pic":"Almonds.jpg","price":4,"description":"", "dry":"foreign"},
 
-    {"id":"p14","name":"Indian Organic Dried Mango(200g)", "pic":"IndianOrganicDriedMango.jpg","price":4,"description":"", "dry":"foreign"},
+    {"id":"p14","name":"Indian Organic Dried Mango(200g)","name1":"","name2":"", "pic":"IndianOrganicDriedMango.jpg","price":4,"description":"", "dry":"foreign"},
 
-    {"id":"p15","name":"Mixed Dried Fruits(350g)", "pic":"traicaysaydeo.jpg","price":4.5,"description":"", "dry":"domestic"},
+    {"id":"p15","name":"Mixed Dried Fruits(350g)","name1":"","name2":"", "pic":"traicaysaydeo.jpg","price":4.5,"description":"", "dry":"domestic"},
     
-    {"id":"p16","name":"Mixed Nuts, Fruits And Dried Yoghurt(737g)", "pic":"drymix.jpg","price":23.9,"description":"", "dry":"foreign"},
+    {"id":"p16","name":"Mixed Nuts, Fruits And Dried Yoghurt(737g)","name1":"23.9$","name2":"sale 16%", "pic":"drymix.jpg","price":20,"description":"", "dry":"foreign"},
 
-    {"id":"p17","name":"Dried Grapefruit", "pic":"buoi.png","price":2.69,"description":"", "dry":"domestic"},
+    {"id":"p17","name":"Dried Grapefruit","name1":"","name2":"", "pic":"buoi.png","price":2.69,"description":"", "dry":"domestic"},
 
-    {"id":"p18","name":"Crispy desiccated coconut", "pic":"duasaydon.jpg","price":5.45,"description":"", "dry":"domestic"},
+    {"id":"p18","name":"Crispy desiccated coconut","name1":"","name2":"", "pic":"duasaydon.jpg","price":5.45,"description":"", "dry":"domestic"},
 
-    {"id":"p19","name":"Dried cherry tomatoes", "pic":"cachuabi.jpg","price":2.7,"description":"", "dry":"domestic"},
+    {"id":"p19","name":"Dried cherry tomatoes","name1":"3$","name2":"sale 10%", "pic":"cachuabi.jpg","price":2.7,"description":"", "dry":"domestic"},
 
-    {"id":"p20","name":"DRYING LEMONS", "pic":"chanhday.jpg","price":2.18,"description":"", "dry":"domestic"},
+    {"id":"p20","name":"DRYING LEMONS","name1":"","name2":"", "pic":"chanhday.jpg","price":2.18,"description":"", "dry":"domestic"},
 
 ];
 
@@ -47,9 +47,13 @@ function displayImage(items){
         s +=`<div class="col-sm-4 col-md-4 col-lg-2 divImage">
         <div class="detailImage" data-id="${v.id}">
         <a href="product_${v.id}.html"><img src="img/${v.pic}" alt="" class="driedFruit"></a>
-            <hr><h3>${v.name}</h3>
-            <h4>Price:${v.price}$</h4>
-
+            <h3>${v.name}</h3>
+            
+            
+            <a style="font-size:25px;"><b>Price: ${v.price}$</b></a>
+            <a><del style="color:Gray;">${v.name1}</del></a>
+            <a style="color:yellow; background-color:red">${v.name2}</a>
+            
         </div>
 
             <a data-name="${v.name}" data-price="${v.price}" class="add-to-cart btn btn-warning">Add to cart</a>
@@ -60,19 +64,6 @@ function displayImage(items){
 
 }
 
-
-
-/*$(function(){
-    $(".col-sm-4 col-md-4 col-lg-2 divImage").slice(0, 3).show(); // select the first ten
-    $(".load").click(function(e){ // click event for load more
-        e.preventDefault();
-        $("col-sm-4 col-md-4 col-lg-2 divImage:hidden").slice(0, 3).show(); // select next 10 hidden divs and show them
-        if ($("col-sm-4 col-md-4 col-lg-2 divImage:hidden").length == 0){ // check if any hidden divs still exist
-            $(".load").fadeOut('slow')
-            alert("No more products"); // alert if there are none left
-        }
-    });
-});*/
 
 //lap trinh su kien xem chi tiet san pham
  $(".detailImage").click(function(){
